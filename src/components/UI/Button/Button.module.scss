@@ -1,0 +1,22 @@
+@import "../../../styles/base.scss";
+@import "../../Type/styles/base";
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: center;
+  font: $default-font;
+
+  &.primary {
+    color: #fff;
+    border-color: $chingu-primary;
+    background-color: $chingu-primary;
+  }
+}

@@ -1,0 +1,20 @@
+@import '../styles/base';
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: $grid-padding;
+
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+
+  &.wrap {
+    flex-wrap: wrap;
+  }
+
+  &.bleed {
+    padding: 0;
+  }
+}

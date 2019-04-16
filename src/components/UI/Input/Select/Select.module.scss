@@ -1,0 +1,11 @@
+@import "../styles/base";
+@import "../../../Type/styles/base";
+
+.select {
+  font: $default-font;
+  padding: $default-input-padding;
+  border-radius: $default-input-border-radius;
+  border: $default-input-border;
+  background: #FFF;
+  appearance: none;
+}

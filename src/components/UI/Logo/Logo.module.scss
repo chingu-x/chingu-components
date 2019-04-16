@@ -1,0 +1,19 @@
+@import "../../../styles/base";
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.logo span {
+  padding: 4px 16px;
+  margin-left: 16px;
+  border-left: 1px solid #D0D0D0;
+  position: relative;
+  color: $chingu-primary;
+}

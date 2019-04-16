@@ -1,0 +1,15 @@
+@import "../styles/base";
+
+.heading {
+  font-family: $default-font-family;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  display: block;
+
+  &.secondary {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6D6D6D;
+  }
+}

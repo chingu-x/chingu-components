@@ -1,0 +1,15 @@
+@import "../styles/base";
+
+.text {
+  font: $default-font;
+  color: #000;
+  display: inline;
+
+  &.small {
+    font-size: 12px;
+  }
+
+  &.bold {
+    font-weight: bold;
+  }
+}
